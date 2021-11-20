@@ -1,5 +1,5 @@
 // Import any additional classes and/or functions needed from Solana's web3.js library as you go along:
-import { Cluster, Keypair } from "@solana/web3.js";
+import { Connection,clusterApiUrl,Cluster, Keypair } from "@solana/web3.js";
 import { message } from "antd";
 
 // *Step 3*: implement a function that gets an account's balance

@@ -5,7 +5,7 @@ import PhraseBox from "../components/PhraseBox";
 import { useGlobalState } from "../context";
 import { LoadingOutlined } from "@ant-design/icons";
 import { useRouter } from "next/router";
-
+import { Keypair } from "@solana/web3.js";
 // Import Bip39 to generate a phrase and convert it to a seed:
 
 // Import the Keypair class from Solana's web3.js library:
